@@ -1,0 +1,32 @@
+\documentclass[a4paper]{article}
+
+% Declaracion de paquetes a usar
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx} % insercion de imagenes
+\usepackage[table, xcdraw]{xcolor} % deteccion de colores
+\usepackage[most]{tcolorbox} % insercion de cuadros en la portada
+
+% Declaracion de variables
+\newcommand{\logoPortada}{images/logo.png}
+\newcommand{\logoMachine}{images/mantis3.png}
+\newcommand{\machineName}{Maquina Mantis}
+
+% Declaracion de colores
+\definecolor{greenPortada}{HTML}{69A84F}
+
+% start document
+\begin{document}
+\begin{titlepage}
+  \centering
+  \includegraphics[width=0.8\textwidth{}]{\logoPortada}\par{}\vspace{1cm}
+  {\scshape\LARGE \textbf{Informe Técnico}\par{}}
+  \vspace{0.2cm}
+  {\Huge\bfseries\textcolor{greenPortada}{\machineName}\par{}}
+  \includegraphics[width=\textwidth{},height=10cm,keepaspectratio]{\logoMachine}\par{}\vspace{1cm}
+  \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+    My box.
+  \end{tcolorbox}
+\end{titlepage}
+  Hola que from zathura and latex 
+\end{document}
