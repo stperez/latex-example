@@ -11,15 +11,16 @@
 \usepackage[hidelinks]{hyperref} % gestion de links
 \usepackage{parskip} % arreglado de tabs en el text
 \usepackage[figurename=Figure]{caption} % editar nombre del caption
+\usepackage{pdfpages}
 % Declaracion de variables
-\newcommand{\logoPortada}{images/logo.png}
-\newcommand{\logoMachine}{images/mantis3.png}
-\newcommand{\machineName}{Maquina Mantis}
 \newcommand{\startDate}{08/10/2021}
 \newcommand{\logoLeft}{images/logo-logo.jpg}
-\newcommand{\logoRight}{images/codesys-logo.png}
-\newcommand{\plc}{images/plc.png}
-
+\newcommand{\logoRight}{images/sena.png}
+\newcommand{\ejercicio}{images/ejercicio.png}
+\newcommand{\ecuacion}{images/ecuacionNeumatica.jpg}
+\newcommand{\simulacion}{simulacion.pdf}
+\newcommand{\program}{bloques.pdf}
+\newcommand{\inputs}{images/io.png}
 % Declaracion de colores
 \definecolor{greenPortada}{HTML}{69A84F}
 
@@ -27,7 +28,7 @@
 \setlength{\headheight}{46.2pt} % espaciado del encabezado de forma vertical
 \pagestyle{fancy}
 \fancyhf{}
-\lhead{\includegraphics[width=1.5cm]{\logoLeft}} % imagen en el encabezado, lado izquierdo
+\lhead{\includegraphics[width=1.9cm]{\logoLeft}} % imagen en el encabezado, lado izquierdo
 \rhead{\includegraphics[width=1.5cm]{\logoRight}} % imagen en el encabezado, lado derecho
 \renewcommand{\headrulewidth}{3pt} % ancho de la linea horizontal del encabezado
 \renewcommand{\headrule}{\hbox to\headwidth{\color{greenPortada}\leaders\hrule height \headrulewidth\hfill}} % color de la linea horizontal del encabezado
@@ -41,18 +42,16 @@
 % portada
 \begin{titlepage}
   \centering
-  \includegraphics[width=0.8\textwidth{}]{\logoPortada}\par{}\vspace{1cm}
-  {\scshape\LARGE \textbf{Informe Técnico}\par{}}
+  {\scshape\LARGE \textbf{Informe Ejercio Electroneumática}\par{}}
+  {\scshape{}\LARGE{}\textbf{Realizadó por Sebastian Castellanos y Stiven Perez}\par{}}
   \vspace{0.2cm}
   \vfill{}
-  {\Huge\bfseries\textcolor{greenPortada}{\machineName}\par{}}
   \vfill{}\vfill{}
-  \includegraphics[width=\textwidth{},height=10cm,keepaspectratio]{\logoMachine}\par{}\vspace{1cm}
   \vfill{}
-  \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
-    \centering{}
-    Este informe es confidencial y no debe ser compartido con terceros.\\ Contiene information confidencial.
-  \end{tcolorbox}
+  % \begin{tcolorbox}[colback=red!5!white,colframe=red!75!black]
+  %   \centering{}
+  %   Este informe es confidencial y no debe ser compartido con terceros.\\ Contiene information confidencial.
+  % \end{tcolorbox}
   \vfill{}
   {\large\startDate}
 \end{titlepage}
@@ -61,25 +60,41 @@
 \tableofcontents{}
 \clearpage{}
 % ------------------------------------------------------- 
-\section{Antecedentes}
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. \textbf{\machineName} link \href{https://www.google.com}{\textbf{\color{blue}Google}}
+\section{Planteamiento}
+Se tiene una maquina fresadora y taladradora, se requiere automatizar con el fin de que el operario solo ingrese la pieza a trabajar en el apartado de la mesa, pulsar el boton de start e inicie todo el proceso de taladro y fresa. Se dispone de 3 (A,B Y C) cilindros neumáticos de doble efecto y se ubicarán como indica la imagen.
 \vspace{0.2cm}
 \begin{figure}[h]
   \centering{}
-  \includegraphics[width=\textwidth]{\plc}
-  \caption{Imagen plc}
+  \includegraphics[width=\textwidth]{\ejercicio}
+  \caption{exposición inicial.}
 \end{figure}
 \vspace{0.2cm}
-\begin{tcolorbox}[enhanced,attach boxed title to top center={yshift=-3mm,yshifttext=-1mm},
-  colback=blue!5!white,colframe=blue!75!black,colbacktitle=greenPortada!80!black,
-  title=Dirección URL,fonttitle=\bfseries,
-  boxed title style={size=small,colframe=red!50!black} ]
-  \centering{}
-  La URL es \href{https://www.google.com}\textbf{\color{blue}https://www.google.com}
-\end{tcolorbox}
 \vspace{0.2cm}
-\section{Objetivos}
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-\subsection{Consideraciones}
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+\section{Desarrollo}
+Para poder realizar una adecuada automatización con los cilindros neumáticos, se analizó el proceso y se hallo la siguiente ecuación neumática desarrollada por el metodo cascada.
+\subsection{Ecuación Neumática}
+\vspace{0.2cm}
+\begin{figure}[h]
+  \centering{}
+  \includegraphics[width=0.5\textwidth]{\ecuacion}
+  \caption{Ecuación Neumática.}
+\end{figure}
+
+\subsection{Entradas y salidas Logo}
+En la siguiente tabla se encuentra en que entrada (I) y que salida (Q) estara cada pulsador y contactos de los sensores reed asi como las respectivas bobinas solenoides de las electrovalvulas.
+\begin{figure}[h]
+  \centering{}
+  \includegraphics[width=\textwidth{}]{\inputs}
+  \caption{Inputs - Outputs.}
+\end{figure}
+
+\subsection{Diseño y simulación en FluidSim}
+Hallando la ecuación neumática procedemos a realizar el diseño y posteriormente la simulación en el software FluidSim, se hará uso de tres cilindros neumáticos de doble efecto, 3 valvulas biestables, el rele programable Logo, un pulsado NO para la señal de START, un pulsado NC para la señal de STOP, bobinas solenoides de las respectivas electrovalvulas y sensores reed con sus recpectivos contactos cableados al Logo.
+
+\includepdf[pages=-]{\simulacion}
+
+\subsection{Programación Logo}
+La programación de la secuencia se realizo por el lenguaje de diagrama de bloques funcionales (FBD).
+\includepdf[pages=1]{\program}
+
 \end{document}

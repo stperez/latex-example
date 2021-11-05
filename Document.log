@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.4)  8 OCT 2021 20:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.4)  4 NOV 2021 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -750,32 +750,71 @@ Package: newfloat 2019/09/02 v1.1l Defining new floating environments (AR)
 \c@continuedfloat=\count323
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
+)
+(/usr/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count324
+\calc@Bcount=\count325
+\calc@Adimen=\dimen285
+\calc@Bdimen=\dimen286
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count326
+\calc@Cskip=\skip67
+)
+(/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen287
+\ESO@tempdimb=\dimen288
+)
+\AM@pagewidth=\dimen289
+\AM@pageheight=\dimen290
+\AM@fboxrule=\dimen291
+
+(/usr/share/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count327
+\AM@pagebox=\box77
+\AM@global@opts=\toks43
+\AM@pagecnt=\count328
+\AM@toc@title=\toks44
+\c@AM@survey=\count329
+\AM@templatesizebox=\box78
 ) (./Document.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `Document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -813,17 +852,17 @@ LaTeX Info: Redefining \% on input line 39.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
-\scratchdimen=\dimen285
-\scratchbox=\box77
-\nofMPsegments=\count325
-\nofMParguments=\count326
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count327
-\MPscratchDim=\dimen286
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count330
+\scratchdimen=\dimen292
+\scratchbox=\box79
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen293
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks46
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -833,8 +872,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count330
-Package hyperref Info: Link coloring OFF on input line 39.
+\c@lstlisting=\count336
+Package hyperref Info: Link coloring OFF on input line 40.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -845,11 +884,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count331
+\c@section@level=\count337
 )
-LaTeX Info: Redefining \ref on input line 39.
-LaTeX Info: Redefining \pageref on input line 39.
-LaTeX Info: Redefining \nameref on input line 39.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./Document.out) (./Document.out)
 \@outlinefile=\write4
@@ -857,75 +896,216 @@ LaTeX Info: Redefining \nameref on input line 39.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<images/logo.png, id=55, 368.37625pt x 137.51375pt>
-File: images/logo.png Graphic file (type png)
-<use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 44.
-(pdftex.def)             Requested size: 386.95897pt x 144.45035pt.
 
+(/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+
+(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 45.
 
-<images/mantis3.png, id=56, 445.665pt x 433.62pt>
-File: images/mantis3.png Graphic file (type png)
-<use images/mantis3.png>
-Package pdftex.def Info: images/mantis3.png  used on input line 50.
-(pdftex.def)             Requested size: 292.44653pt x 284.54257pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.png> <./imag
-es/mantis3.png>] (./Document.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Document.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@toc=\write5
 \openout5 = `Document.toc'.
 
-<images/logo-logo.jpg, id=71, 1204.5pt x 800.9925pt>
+<images/logo-logo.jpg, id=80, 1204.5pt x 800.9925pt>
 File: images/logo-logo.jpg Graphic file (type jpg)
 <use images/logo-logo.jpg>
-Package pdftex.def Info: images/logo-logo.jpg  used on input line 62.
-(pdftex.def)             Requested size: 42.67912pt x 28.37982pt.
-<images/codesys-logo.png, id=72, 2007.5pt x 1603.9925pt>
-File: images/codesys-logo.png Graphic file (type png)
-<use images/codesys-logo.png>
-Package pdftex.def Info: images/codesys-logo.png  used on input line 62.
-(pdftex.def)             Requested size: 42.67912pt x 34.09357pt.
+Package pdftex.def Info: images/logo-logo.jpg  used on input line 61.
+(pdftex.def)             Requested size: 54.06006pt x 35.94533pt.
+<images/sena.png, id=81, 636.3775pt x 590.205pt>
+File: images/sena.png Graphic file (type png)
+<use images/sena.png>
+Package pdftex.def Info: images/sena.png  used on input line 61.
+(pdftex.def)             Requested size: 42.67912pt x 39.58044pt.
+
+
+Package fancyhdr Warning: \headheight is too small (46.2pt): 
+(fancyhdr)                Make it at least 51.58044pt, for example:
+(fancyhdr)                \setlength{\headheight}{51.58044pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-5.38045pt}.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \clearpage
+l.61 \clearpage
                {} [1
 
- <./images/logo-logo.jpg> <./images/codesys-logo.png>]
-<images/plc.png, id=80, 132.495pt x 96.1191pt>
-File: images/plc.png Graphic file (type png)
-<use images/plc.png>
-Package pdftex.def Info: images/plc.png  used on input line 69.
-(pdftex.def)             Requested size: 483.69687pt x 350.9681pt.
+ <./images/logo-logo.jpg> <./images/sena.png>]
+<images/ejercicio.png, id=90, 564.60938pt x 365.86688pt>
+File: images/ejercicio.png Graphic file (type png)
+<use images/ejercicio.png>
+Package pdftex.def Info: images/ejercicio.png  used on input line 68.
+(pdftex.def)             Requested size: 483.69687pt x 313.4391pt.
+<images/ecuacionNeumatica.jpg, id=91, 1611.77156pt x 863.47594pt>
+File: images/ecuacionNeumatica.jpg Graphic file (type jpg)
+<use images/ecuacionNeumatica.jpg>
+Package pdftex.def Info: images/ecuacionNeumatica.jpg  used on input line 79.
+(pdftex.def)             Requested size: 241.84843pt x 129.55533pt.
+<images/io.png, id=92, 663.98062pt x 484.05844pt>
+File: images/io.png Graphic file (type png)
+<use images/io.png>
+Package pdftex.def Info: images/io.png  used on input line 87.
+(pdftex.def)             Requested size: 483.69687pt x 352.6285pt.
 File: images/logo-logo.jpg Graphic file (type jpg)
 <use images/logo-logo.jpg>
-Package pdftex.def Info: images/logo-logo.jpg  used on input line 85.
-(pdftex.def)             Requested size: 42.67912pt x 28.37982pt.
-File: images/codesys-logo.png Graphic file (type png)
-<use images/codesys-logo.png>
-Package pdftex.def Info: images/codesys-logo.png  used on input line 85.
-(pdftex.def)             Requested size: 42.67912pt x 34.09357pt.
+Package pdftex.def Info: images/logo-logo.jpg  used on input line 90.
+(pdftex.def)             Requested size: 54.06006pt x 35.94533pt.
+File: images/sena.png Graphic file (type png)
+<use images/sena.png>
+Package pdftex.def Info: images/sena.png  used on input line 90.
+(pdftex.def)             Requested size: 42.67912pt x 39.58044pt.
+
+
+Package fancyhdr Warning: \headheight is too small (46.2pt): 
+(fancyhdr)                Make it at least 51.58044pt, for example:
+(fancyhdr)                \setlength{\headheight}{51.58044pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-5.38045pt}.
 
 [2
 
- <./images/plc.png>]
+ <./images/ejercicio.png (PNG copy)> <./images/ecuacionNeumatica.jpg>]
+
+pdfTeX warning: pdflatex (file ./simulacion.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<simulacion.pdf, id=99, 614.295pt x 794.97pt>
+File: simulacion.pdf Graphic file (type pdf)
+<use simulacion.pdf>
+Package pdftex.def Info: simulacion.pdf  used on input line 94.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex (file ./simulacion.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+File: simulacion.pdf Graphic file (type pdf)
+<use simulacion.pdf>
+Package pdftex.def Info: simulacion.pdf  used on input line 94.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+
+pdfTeX warning: pdflatex (file ./simulacion.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./simulacion.pdf): PDF inclusion: found PDF vers
+ion <1.7>, but at most version <1.5> allowed
+<simulacion.pdf, id=102, page=1, 614.295pt x 794.97pt>
+File: simulacion.pdf Graphic file (type pdf)
+<use simulacion.pdf, page 1>
+Package pdftex.def Info: simulacion.pdf , page1 used on input line 94.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: simulacion.pdf Graphic file (type pdf)
+<use simulacion.pdf, page 1>
+Package pdftex.def Info: simulacion.pdf , page1 used on input line 94.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: images/logo-logo.jpg Graphic file (type jpg)
 <use images/logo-logo.jpg>
-Package pdftex.def Info: images/logo-logo.jpg  used on input line 85.
-(pdftex.def)             Requested size: 42.67912pt x 28.37982pt.
-File: images/codesys-logo.png Graphic file (type png)
-<use images/codesys-logo.png>
-Package pdftex.def Info: images/codesys-logo.png  used on input line 85.
-(pdftex.def)             Requested size: 42.67912pt x 34.09357pt.
- [3] (./Document.aux
+Package pdftex.def Info: images/logo-logo.jpg  used on input line 94.
+(pdftex.def)             Requested size: 54.06006pt x 35.94533pt.
+File: images/sena.png Graphic file (type png)
+<use images/sena.png>
+Package pdftex.def Info: images/sena.png  used on input line 94.
+(pdftex.def)             Requested size: 42.67912pt x 39.58044pt.
+
+Package fancyhdr Warning: \headheight is too small (46.2pt): 
+(fancyhdr)                Make it at least 51.58044pt, for example:
+(fancyhdr)                \setlength{\headheight}{51.58044pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-5.38045pt}.
+
+[3 <./images/io.png (PNG copy)>]
+File: simulacion.pdf Graphic file (type pdf)
+<use simulacion.pdf, page 1>
+Package pdftex.def Info: simulacion.pdf , page1 used on input line 94.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: simulacion.pdf Graphic file (type pdf)
+<use simulacion.pdf, page 1>
+Package pdftex.def Info: simulacion.pdf , page1 used on input line 94.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: simulacion.pdf Graphic file (type pdf)
+<use simulacion.pdf, page 1>
+Package pdftex.def Info: simulacion.pdf , page1 used on input line 94.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [4 <./simulacion.pdf>]
+
+pdfTeX warning: pdflatex (file ./bloques.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<bloques.pdf, id=121, 597.55246pt x 845.07724pt>
+File: bloques.pdf Graphic file (type pdf)
+<use bloques.pdf>
+Package pdftex.def Info: bloques.pdf  used on input line 98.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex (file ./bloques.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+File: bloques.pdf Graphic file (type pdf)
+<use bloques.pdf>
+Package pdftex.def Info: bloques.pdf  used on input line 98.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+
+
+pdfTeX warning: pdflatex (file ./bloques.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./bloques.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<bloques.pdf, id=124, page=1, 597.55246pt x 845.07724pt>
+File: bloques.pdf Graphic file (type pdf)
+<use bloques.pdf, page 1>
+Package pdftex.def Info: bloques.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+File: bloques.pdf Graphic file (type pdf)
+<use bloques.pdf, page 1>
+Package pdftex.def Info: bloques.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: images/logo-logo.jpg Graphic file (type jpg)
+<use images/logo-logo.jpg>
+Package pdftex.def Info: images/logo-logo.jpg  used on input line 98.
+(pdftex.def)             Requested size: 54.06006pt x 35.94533pt.
+File: images/sena.png Graphic file (type png)
+<use images/sena.png>
+Package pdftex.def Info: images/sena.png  used on input line 98.
+(pdftex.def)             Requested size: 42.67912pt x 39.58044pt.
+
+Package fancyhdr Warning: \headheight is too small (46.2pt): 
+(fancyhdr)                Make it at least 51.58044pt, for example:
+(fancyhdr)                \setlength{\headheight}{51.58044pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-5.38045pt}.
+
+[5]
+File: bloques.pdf Graphic file (type pdf)
+<use bloques.pdf, page 1>
+Package pdftex.def Info: bloques.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: bloques.pdf Graphic file (type pdf)
+<use bloques.pdf, page 1>
+Package pdftex.def Info: bloques.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+File: bloques.pdf Graphic file (type pdf)
+<use bloques.pdf, page 1>
+Package pdftex.def Info: bloques.pdf , page1 used on input line 98.
+(pdftex.def)             Requested size: 597.57834pt x 845.11386pt.
+ [6 <./bloques.pdf>] (./Document.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
@@ -933,24 +1113,24 @@ LaTeX Info: Redefining \% on input line 25.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Document.out' has not changed.
-(rerunfilecheck)             Checksum: 6113D7BE70CA498B4715AB1BBC30C3AE;323.
+(rerunfilecheck)             Checksum: 8019D8F43357AACF616C91D2508BA96C;916.
  ) 
 Here is how much of TeX's memory you used:
- 28507 strings out of 478994
- 552412 string characters out of 5864751
- 905562 words of memory out of 5000000
- 45519 multiletter control sequences out of 15000+600000
- 406917 words of font info for 39 fonts, out of 8000000 for 9000
+ 29224 strings out of 478994
+ 563478 string characters out of 5864751
+ 916711 words of memory out of 5000000
+ 46202 multiletter control sequences out of 15000+600000
+ 406311 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,108p,703b,1268s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,17n,108p,568b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr12.pfb>
-Output written on Document.pdf (4 pages, 533067 bytes).
+Output written on Document.pdf (7 pages, 1016798 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
